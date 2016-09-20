@@ -1,1 +1,1 @@
-include ':app', ':RetrofitTorxjava', ':MVP_Demos'
+include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos'
