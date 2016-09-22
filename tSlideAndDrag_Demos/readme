@@ -1,1 +1,3 @@
 这是一个item可以拖拽,滑动出菜单的listview
+还有一种就是  listview,拖拽效果更好,但是没有滑动菜单的功能,有上下拉刷新功能,用的RecyclerView来实现的,
+Demos下载地址github中https://github.com/supercwn/SuperRecycleView
