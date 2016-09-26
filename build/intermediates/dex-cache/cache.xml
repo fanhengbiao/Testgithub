@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="a2bcc25d161a84d8eabde61806dad90029b3ff15">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha3_b83057ee6353468254b48a6876b7e76c4bb52b56.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_f9d4b6487a3df55b3612fee5f4ec9a7718ac11ec.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_b3ca302fb1dac39cc6a5b77ad9cc11c95cb15af8.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_7095f46dbcb28bf4b1df8554e671d42cf6a9640e.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_9ee776c6199c76f9a45c12ea730451d39c582bf7.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_265ee03fd0bc60f3b9333b23fa1fde8d958a7776.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/android/android-studio/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="29e762ef46d0cb2b648eb3d25eeb2b29853579fe">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha3_91d4cef723ce09a203f8636bca10900d8c5f7e99.jar" />
+    </item>
+    <item
+        jar="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/fanhengbiao/linphone/Testgithub/MVP_Demos/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_9a9d71024a9b6fd59c9df2929c14fb19293d4f4d.jar" />
+    </item>
+
+</items>

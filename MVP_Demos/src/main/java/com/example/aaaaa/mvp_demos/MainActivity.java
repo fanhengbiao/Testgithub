@@ -9,9 +9,13 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.mvp.personal.Personal;
+import com.example.mvp.personal.PersonalPresenter;
+import com.example.mvp.personal.Presenter;
+
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements PersonalView {
+public class MainActivity extends AppCompatActivity implements Presenter.PersonalView {
 
     private PersonalPresenter personalPresenter;
     private ListView mlsitview;
