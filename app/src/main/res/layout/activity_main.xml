@@ -19,4 +19,8 @@
         android:layout_marginRight="309dp"
         android:layout_marginEnd="309dp"
         android:id="@+id/button" />
+    <com.example.aa.ui.LinedEditText
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
 </RelativeLayout>

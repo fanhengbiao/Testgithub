@@ -9,12 +9,13 @@ import java.util.List;
  * Created by fanhengbiao on 16-9-9.实现类,数据都是在这边操作,数据也在这边统一操作
  */
 
-public class PersonalPresenter implements Presenter.TaskPresenter {
+public class PersonalPresenter implements BasePresenter.TaskPresenter {
     ArrayList<Personal> personalArrayList=new ArrayList<>();
-    Presenter.PersonalView personalView;
+    BasePresenter.PersonalView personalView;
 
-    public PersonalPresenter(Presenter.PersonalView personalView) {
+    public PersonalPresenter(BasePresenter.PersonalView personalView) {
         this.personalView = personalView;
+        personalView.setpresenter(this);
 
     }
 

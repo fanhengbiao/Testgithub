@@ -9,15 +9,16 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.mvp.personal.BasePresenter;
 import com.example.mvp.personal.Personal;
 import com.example.mvp.personal.PersonalPresenter;
-import com.example.mvp.personal.Presenter;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements Presenter.PersonalView {
+public class MainActivity extends AppCompatActivity implements BasePresenter.PersonalView {
 
-    private PersonalPresenter personalPresenter;
+//    private PersonalPresenter personalPresenter;
+    private BasePresenter.TaskPresenter personalPresenter;
     private ListView mlsitview;
     private Adaperter adaperter;
     private ProgressDialog dialog;
@@ -26,8 +27,8 @@ public class MainActivity extends AppCompatActivity implements Presenter.Persona
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        personalPresenter = new PersonalPresenter(this);
         mlsitview = (ListView) findViewById(R.id.listview);
+        personalPresenter=new PersonalPresenter(this);
         adaperter = new Adaperter(personalPresenter.getlistPersonal());
         mlsitview.setAdapter(adaperter);
         dialog = new ProgressDialog(this);
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements Presenter.Persona
         });
     }
 
+
     @Override
     public void changlistdata() {
         adaperter.notifyDataSetChanged();
@@ -61,6 +63,13 @@ public class MainActivity extends AppCompatActivity implements Presenter.Persona
     public void Dialogdiss() {
         if (dialog != null) {
             dialog.dismiss();
+        }
+    }
+
+    @Override
+    public void setpresenter(BasePresenter.TaskPresenter presenter) {
+        if (presenter !=null){
+            this.personalPresenter=presenter;
         }
     }
 
