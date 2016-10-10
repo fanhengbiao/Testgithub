@@ -1,1 +1,1 @@
-include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':pullreshAndDragToListview'
+include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':pullreshAndDragToListview', ':Glide_图片加载', ':最新网络框架_rxjava'

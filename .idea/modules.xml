@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Glide_图片加载/Glide_图片加载.iml" filepath="$PROJECT_DIR$/Glide_图片加载/Glide_图片加载.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVP_Demos/MVP_Demos.iml" filepath="$PROJECT_DIR$/MVP_Demos/MVP_Demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/RetrofitTorxjava/RetrofitTorxjava.iml" filepath="$PROJECT_DIR$/RetrofitTorxjava/RetrofitTorxjava.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwipeMenuListView_Demos/SwipeMenuListView_Demos.iml" filepath="$PROJECT_DIR$/SwipeMenuListView_Demos/SwipeMenuListView_Demos.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullreshAndDragToListview/pullreshAndDragToListview.iml" filepath="$PROJECT_DIR$/pullreshAndDragToListview/pullreshAndDragToListview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tSlideAndDrag_Demos/tSlideAndDrag_Demos.iml" filepath="$PROJECT_DIR$/tSlideAndDrag_Demos/tSlideAndDrag_Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/最新网络框架_rxjava/最新网络框架_rxjava.iml" filepath="$PROJECT_DIR$/最新网络框架_rxjava/最新网络框架_rxjava.iml" />
     </modules>
   </component>
 </project>
