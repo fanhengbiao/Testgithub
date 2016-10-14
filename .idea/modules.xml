@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullreshAndDragToListview/pullreshAndDragToListview.iml" filepath="$PROJECT_DIR$/pullreshAndDragToListview/pullreshAndDragToListview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tSlideAndDrag_Demos/tSlideAndDrag_Demos.iml" filepath="$PROJECT_DIR$/tSlideAndDrag_Demos/tSlideAndDrag_Demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/原生https请求/原生https请求.iml" filepath="$PROJECT_DIR$/原生https请求/原生https请求.iml" />
+      <module fileurl="file://$PROJECT_DIR$/拍照裁剪功能/拍照裁剪功能.iml" filepath="$PROJECT_DIR$/拍照裁剪功能/拍照裁剪功能.iml" />
       <module fileurl="file://$PROJECT_DIR$/最新网络框架_rxjava/最新网络框架_rxjava.iml" filepath="$PROJECT_DIR$/最新网络框架_rxjava/最新网络框架_rxjava.iml" />
     </modules>
   </component>

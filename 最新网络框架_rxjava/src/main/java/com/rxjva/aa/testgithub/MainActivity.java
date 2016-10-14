@@ -38,11 +38,13 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void  onclick_get(View view){
-        RxAndroidNetworking.get("http://testapi.xmcrtech.com:6677//News/Location/Month/2015-12?format=json")
+//        RxAndroidNetworking.get("http://testapi.xmcrtech.com:6677//News/Location/Month/2015-12?format=json")
+        RxAndroidNetworking.get("https://testapi.xmcrtech.com:6677/Notes/Location/CN-FJ-XM-LFXTD/?format=json")
 //                .addHeaders()//加入头部,可以用string或者hasmap
 //                .addPathParameter()//对url的补充
 //                .addQueryParameter()//添加需要传入的参数,可以字符串或者hasmap
                 .setTag("get")//做标记,可以取消任务
+
                 .build()
                 .setAnalyticsListener(new AnalyticsListener() {//这个方法可以知道用时,是否来自缓存等信息
                     @Override
