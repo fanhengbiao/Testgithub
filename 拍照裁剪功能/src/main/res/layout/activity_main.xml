@@ -19,8 +19,22 @@
         android:layout_marginTop="50dp"
         android:onClick="btn"
         android:id="@+id/button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="选择图库"
+        android:id="@+id/btn_tuku"
+        android:onClick="btn_tuk"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/iv"
-        android:layout_width="50dp"
-        android:layout_height="50dp"/>
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="147dp" />
 </RelativeLayout>

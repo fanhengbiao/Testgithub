@@ -26,6 +26,7 @@ public class YImagePicker {
     private static final int REQUEST_IMAGE_PICK_FROM_FILE = 0x121;
     private static final int REQUEST_IMAGE_PICK_FROM_CAMERA = 0x122;
     private static final int REQUEST_IMAGE_CROP = 0x123;
+    private static final int REQUEST_IMAGE_PICUT = 22;
     protected Uri IMAGE_URI;
     public static final File sTempDir = new File(Environment
             .getExternalStorageDirectory().getAbsolutePath() + "/Android/TEMP");
@@ -107,6 +108,27 @@ public class YImagePicker {
         }
     }
 
+    public void startImagePickFromPicture() {
+//        String fileName = null;
+//        Intent openCameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+//        fileName = imgFileName;
+//        cameraOutImageFile = new File(sTempDir, fileName);
+//        if (!cameraOutImageFile.getParentFile().exists()) {
+//            cameraOutImageFile.getParentFile().mkdirs();
+//        }
+//        IMAGE_URI = Uri.fromFile(cameraOutImageFile);
+//        // 指定照片保存路径（SD卡），image.jpg为一个临时文件，每次拍照后这个图片都会被替换
+//        openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, IMAGE_URI);
+        Intent i = new Intent(
+                Intent.ACTION_PICK,
+                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        if (fragment == null) {
+            activity.startActivityForResult(i, REQUEST_IMAGE_PICUT);
+        } else {
+            fragment.startActivityForResult(i, REQUEST_IMAGE_PICUT);
+        }
+    }
+
     /*
          * 裁剪图片
          */
@@ -159,11 +181,24 @@ public class YImagePicker {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == Activity.RESULT_OK) {
             switch (requestCode) {
-                case REQUEST_IMAGE_PICK_FROM_CAMERA: {
+                case REQUEST_IMAGE_PICK_FROM_CAMERA: {//拍照拿去裁剪
                     // 将保存在本地的图片取出并缩小后显示在界面上
                     Bitmap bitmap = bitmapParser.parse(cameraOutImageFile.getAbsolutePath());
                     onImagePickedListener.onImagePicked(bitmap, requestCode, data, IMAGE_URI,
                             cameraOutImageFile.getAbsolutePath());
+                    break;
+                }
+                case REQUEST_IMAGE_PICUT: {//选择到的照片拿去裁剪
+                    Uri selectedImage = data.getData();
+                    String[] filePathColumn = {MediaStore.Images.Media.DATA};
+                    Cursor cursor = activity.getContentResolver().query(selectedImage,
+                            filePathColumn, null, null, null);
+                    cursor.moveToFirst();
+
+                    int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                    String picturePath = cursor.getString(columnIndex);
+                    onImagePickedListener.onImagePicked(bitmapParser.parse(picturePath), requestCode, data, null,
+                            picturePath);
                     break;
                 }
                 case REQUEST_IMAGE_PICK_FROM_FILE: {
@@ -183,7 +218,7 @@ public class YImagePicker {
 //                                originalUri);
                     if (path == null) {
                         onImagePickedListener.onPickFail(new Exception("path get fail"));
-                        return ;
+                        return;
                     }
                     Bitmap bitmap = bitmapParser.parse(path);
                     if (bitmap == null) {

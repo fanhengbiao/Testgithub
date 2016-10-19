@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity implements  YImagePicker.OnI
     public void btn(View view) {
         imagePicker.startImagePickFromCamera();
     }
+    public void btn_tuk(View view) {
+        imagePicker.startImagePickFromPicture();
+
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
