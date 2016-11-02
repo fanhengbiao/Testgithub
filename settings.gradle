@@ -1,1 +1,1 @@
-include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':pullreshAndDragToListview', ':Glide_图片加载', ':最新网络框架_rxjava', ':原生https请求', ':拍照裁剪功能', ':fastjson_JSON解析'
+include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':Glide_图片加载', ':最新网络框架_rxjava', ':原生https请求', ':拍照裁剪功能', ':fastjson_JSON解析', ':获取验证码'

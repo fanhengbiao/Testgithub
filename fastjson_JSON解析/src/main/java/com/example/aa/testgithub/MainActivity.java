@@ -8,6 +8,8 @@ import android.widget.TextView;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
@@ -125,6 +127,108 @@ public class MainActivity extends AppCompatActivity {
             "        },\n" +
             "        ]\n" +
             "}\n";
+    String data1="[\n" +
+            "    {\n" +
+            "        \"Id\": \"677b15f0-80f5-460d-b110-de2cff27fc77\",\n" +
+            "        \"AppId\": \"24850d67-e430-4d68-9830-8812a13744c5\",\n" +
+            "        \"MemberId\": \"b4301a4c-9e35-4b95-8763-b148614457b2\",\n" +
+            "        \"MemberLocationId\": \"6252cb6f-9515-4316-93ee-824339c0e61d\",\n" +
+            "        \"LocationId\": \"240af6d3-487e-404c-b8b5-7a90620b4310\",\n" +
+            "        \"LocationPid\": \"10c8fe8b-2142-449e-a8d0-f7acee0b8e98\",\n" +
+            "        \"LocationName\": \"808\",\n" +
+            "        \"LocationNumber\": \"0808\",\n" +
+            "        \"LocationFullName\": \"联发新天地>1号楼>2单元>808\",\n" +
+            "        \"LocationCode\": \"CN-FJ-XM-LFXTD-01-02-0808\",\n" +
+            "        \"UnitCode\": \"CN-FJ-XM-LFXTD\",\n" +
+            "        \"LocationAccount\": \"CN-FJ-XM-LFXTD-01-02-0808-554433289@121.40.75.178\",\n" +
+            "        \"LocationPassword\": \"xmcrtech\",\n" +
+            "        \"LocationGroup\": \"3\",\n" +
+            "        \"LocationAccountId\": \"3700\",\n" +
+            "        \"LocationType\": \"customer\",\n" +
+            "        \"LocationGpsOn\": \"0\",\n" +
+            "        \"IsGate\": false\n" +
+            "    },\n" +
+            "    {\n" +
+            "        \"Id\": \"12077b19-3664-4f34-b58e-31f6a6336fd5\",\n" +
+            "        \"AppId\": \"\",\n" +
+            "        \"MemberId\": \"\",\n" +
+            "        \"MemberLocationId\": \"\",\n" +
+            "        \"LocationId\": \"12077b19-3664-4f34-b58e-31f6a6336fd5\",\n" +
+            "        \"LocationPid\": \"1b1ce4a7-f2be-47f1-b762-57c2c7d09f3a\",\n" +
+            "        \"LocationName\": \"北门\",\n" +
+            "        \"LocationNumber\": \"gate100\",\n" +
+            "        \"LocationFullName\": \"联发新天地>北门\",\n" +
+            "        \"LocationCode\": \"CN-FJ-XM-LFXTD-gate-100\",\n" +
+            "        \"UnitCode\": \"CN-FJ-XM-LFXTD\",\n" +
+            "        \"LocationAccount\": \"CN-FJ-XM-LFXTD-gate-100@121.40.75.178\",\n" +
+            "        \"LocationPassword\": \"xmcrtech\",\n" +
+            "        \"LocationGroup\": \"3\",\n" +
+            "        \"LocationAccountId\": \"2759\",\n" +
+            "        \"LocationType\": \"gate\",\n" +
+            "        \"LocationBlueMac\": \"\",\n" +
+            "        \"IsGate\": true\n" +
+            "    },\n" +
+            "    {\n" +
+            "        \"Id\": \"5d3cd8b6-b14e-4bad-9833-a53cc576d748\",\n" +
+            "        \"AppId\": \"\",\n" +
+            "        \"MemberId\": \"\",\n" +
+            "        \"MemberLocationId\": \"\",\n" +
+            "        \"LocationId\": \"5d3cd8b6-b14e-4bad-9833-a53cc576d748\",\n" +
+            "        \"LocationPid\": \"1b1ce4a7-f2be-47f1-b762-57c2c7d09f3a\",\n" +
+            "        \"LocationName\": \"东门\",\n" +
+            "        \"LocationNumber\": \"gate-99\",\n" +
+            "        \"LocationFullName\": \"联发新天地>东门\",\n" +
+            "        \"LocationCode\": \"CN-FJ-XM-LFXTD-gate-99\",\n" +
+            "        \"UnitCode\": \"CN-FJ-XM-LFXTD\",\n" +
+            "        \"LocationAccount\": \"CN-FJ-XM-LFXTD-gate-99@121.40.75.178\",\n" +
+            "        \"LocationPassword\": \"xmcrtech\",\n" +
+            "        \"LocationGroup\": \"3\",\n" +
+            "        \"LocationAccountId\": \"2724\",\n" +
+            "        \"LocationType\": \"gate\",\n" +
+            "        \"LocationBlueMac\": \"\",\n" +
+            "        \"IsGate\": true\n" +
+            "    },\n" +
+            "    {\n" +
+            "        \"Id\": \"7044ed77-3249-4aa2-a325-710065969325\",\n" +
+            "        \"AppId\": \"\",\n" +
+            "        \"MemberId\": \"\",\n" +
+            "        \"MemberLocationId\": \"\",\n" +
+            "        \"LocationId\": \"7044ed77-3249-4aa2-a325-710065969325\",\n" +
+            "        \"LocationPid\": \"1b1ce4a7-f2be-47f1-b762-57c2c7d09f3a\",\n" +
+            "        \"LocationName\": \"南门\",\n" +
+            "        \"LocationNumber\": \"gate-101\",\n" +
+            "        \"LocationFullName\": \"联发新天地>南门\",\n" +
+            "        \"LocationCode\": \"CN-FJ-XM-LFXTD-gate-101\",\n" +
+            "        \"UnitCode\": \"CN-FJ-XM-LFXTD\",\n" +
+            "        \"LocationAccount\": \"CN-FJ-XM-LFXTD-gate-101@121.40.75.178\",\n" +
+            "        \"LocationPassword\": \"xmcrtech\",\n" +
+            "        \"LocationGroup\": \"3\",\n" +
+            "        \"LocationAccountId\": \"2851\",\n" +
+            "        \"LocationType\": \"gate\",\n" +
+            "        \"LocationBlueMac\": \"\",\n" +
+            "        \"IsGate\": true\n" +
+            "    },\n" +
+            "    {\n" +
+            "        \"Id\": \"e2d741ad-7884-4a33-8455-ac6ba0ffeb3d\",\n" +
+            "        \"AppId\": \"24850d67-e430-4d68-9830-8812a13744c5\",\n" +
+            "        \"MemberId\": \"eb15fc98-add3-466a-b79a-1bf25e77489e\",\n" +
+            "        \"MemberLocationId\": \"0ae50a48-681e-48c4-bf5c-a2f69d7083ea\",\n" +
+            "        \"LocationId\": \"ffdf65b5-4444-4155-a789-bd9de15a9c85\",\n" +
+            "        \"LocationPid\": \"984cdc40-8bb7-4cf6-b103-e1266480d4eb\",\n" +
+            "        \"LocationName\": \"301\",\n" +
+            "        \"LocationNumber\": \"0301\",\n" +
+            "        \"LocationFullName\": \"联发新天地>1号楼>3单元>301\",\n" +
+            "        \"LocationCode\": \"CN-FJ-XM-LFXTD-01-03-0301\",\n" +
+            "        \"UnitCode\": \"CN-FJ-XM-LFXTD\",\n" +
+            "        \"LocationAccount\": \"CN-FJ-XM-LFXTD-01-03-0301-554433391@121.40.75.178\",\n" +
+            "        \"LocationPassword\": \"xmcrtech\",\n" +
+            "        \"LocationGroup\": \"3\",\n" +
+            "        \"LocationAccountId\": \"2669\",\n" +
+            "        \"LocationType\": \"admin\",\n" +
+            "        \"LocationGpsOn\": \"1\",\n" +
+            "        \"IsGate\": false\n" +
+            "    }\n" +
+            "]";
 
     /**fastjson解析非常方便,实体类直接用JSONFomat来做,直接这样就好 personal list = JSON.parseObject(data,new TypeReference<personal>(){});
      * @param savedInstanceState
@@ -146,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
      *
      */
     public void fastJson(){
-        personal list = JSON.parseObject(data,new TypeReference<personal>(){});
+        List<text> list = JSON.parseObject(data1,new TypeReference<List<text>>(){});
         textView.setText(list.toString());
 
 
