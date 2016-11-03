@@ -8,8 +8,6 @@ import android.widget.TextView;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
@@ -229,6 +227,15 @@ public class MainActivity extends AppCompatActivity {
             "        \"IsGate\": false\n" +
             "    }\n" +
             "]";
+    String appid="{\n" +
+            "    \"userid\": \"1111111\",\n" +
+            "    \"sessionid\": \"22222\",\n" +
+            "    \"username\": \"158254655\",\n" +
+            "    \"responsestatus\": {},\n" +
+            "    \"mata\": {\n" +
+            "        \"intercomtoken\": \"8723895735-23847283\"\n" +
+            "    }\n" +
+            "}";
 
     /**fastjson解析非常方便,实体类直接用JSONFomat来做,直接这样就好 personal list = JSON.parseObject(data,new TypeReference<personal>(){});
      * @param savedInstanceState
@@ -250,8 +257,8 @@ public class MainActivity extends AppCompatActivity {
      *
      */
     public void fastJson(){
-        List<text> list = JSON.parseObject(data1,new TypeReference<List<text>>(){});
-        textView.setText(list.toString());
+            appid appidresult = JSON.parseObject(appid,new TypeReference<appid>(){});
+        textView.setText(appidresult.toString());
 
 
     }
