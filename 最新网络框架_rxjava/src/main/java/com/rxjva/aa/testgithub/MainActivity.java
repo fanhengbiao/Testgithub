@@ -16,6 +16,8 @@ import com.androidnetworking.interfaces.BitmapRequestListener;
 import com.google.gson.reflect.TypeToken;
 import com.rxandroidnetworking.RxAndroidNetworking;
 
+import java.util.HashMap;
+
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -38,11 +40,18 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void  onclick_get(View view){
+        HashMap<String, String> map = new HashMap<>();
+        map.put("Password", "123456");
+        map.put("PhoneNumber", "15880268607");
+        map.put("PhoneNumberCode", "912512");
+        map.put("RegisterType", "1");
+        map.put("AutoLogin", "true");
 //        RxAndroidNetworking.get("http://testapi.xmcrtech.com:6677//News/Location/Month/2015-12?format=json")
-        RxAndroidNetworking.get("https://testapi.xmcrtech.com:6677/Notes/Location/CN-FJ-XM-LFXTD/?format=json")
+        RxAndroidNetworking.post("http://testapi.xmcrtech.com/register?format=json&PhoneNumberCode=691665&RegisterType=1&AutoLogin=true&Password=12345678&PhoneNumber=15880268607")
 //                .addHeaders()//加入头部,可以用string或者hasmap
 //                .addPathParameter()//对url的补充
 //                .addQueryParameter()//添加需要传入的参数,可以字符串或者hasmap
+//                .addQueryParameter(map)
                 .setTag("get")//做标记,可以取消任务
 
                 .build()
@@ -55,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
                         Log.e("onReceived",""+isFromCache);
                     }
                 })
-                .getParseObservable(new TypeToken<Personal>() {//实体类最好用GsonFormat制作
+                .getParseObservable(new TypeToken<String>() {//实体类最好用GsonFormat制作
                 })
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Observer<Personal>() {
+                .subscribe(new Observer<String>() {
                     @Override
                     public void onCompleted() {
 
@@ -68,11 +77,11 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onError(Throwable e) {
                         Log.e("get_onError",""+e.getMessage());
-                        textView.setText("get_text"+e.getMessage());
+                        textView.setText("get_onError"+e.getMessage());
                     }
 
                     @Override
-                    public void onNext(Personal s) {
+                    public void onNext(String s) {
                         Log.e("get_onNext",""+s.toString());
                         textView.setText("get_text"+s.toString());
                     }

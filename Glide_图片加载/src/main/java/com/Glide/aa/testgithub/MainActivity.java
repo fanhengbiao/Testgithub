@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
                 .load("http://g.hiphotos.baidu.com/image/pic/item/0df3d7ca7bcb0a46bc0b4d3d6963f6246b60af8d.jpg")
                 .placeholder(R.mipmap.ic_launcher)//还没加载出来默认的图片
                 .error(R.mipmap.ic_launcher)//加载失败的图片
+                .bitmapTransform(new GlideRoundTransform(this,15))
                 .diskCacheStrategy(DiskCacheStrategy.ALL)// 缓存所有版本的图像（默认行为）
                 .into(imageView);
     }
