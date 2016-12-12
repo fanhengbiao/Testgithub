@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_db1bb2a3f1608a31c38a2d1f5698fe71cc45038a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\libs\libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\2\libammsdk_81637ae1387de63ee0fa447412e26b2fa5a4d071\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f481cf671d85025c6b75df54f3f70f47fadf5007">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ed117d711bff28159ed86a73af51fefb98214d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_46bd89951290b8d3ab7e8c2091d08567163edb2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_ccaedb86fd325b70ee2884ed2c82714ab02878ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_375356aa0b96c08c7c18a6a25325b618c5c27da5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\微信支付\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="194815a6eca5b44cf1f663bd9c98dddee68062f9">
+        <dex dex="D:\Testgithub\微信支付\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_471046cf5812815e0cb218049baf63deca39b226\classes.dex" />
+    </item>
+
+</items>

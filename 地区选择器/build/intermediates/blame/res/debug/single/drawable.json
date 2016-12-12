@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/地区选择器/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/地区选择器/src/main/res/drawable/wheel_bg.xml"
+        "merged": "D:\\Testgithub\\地区选择器\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "D:\\Testgithub\\地区选择器\\src\\main\\res\\drawable\\wheel_bg.xml"
     },
     {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/build/intermediates/res/merged/debug/drawable/wheel_bg.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/src/main/res/drawable/wheel_bg.xml"
-    },
-    {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/地区选择器/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/地区选择器/src/main/res/drawable/wheel_val.xml"
-    },
-    {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/build/intermediates/res/merged/debug/drawable/wheel_val.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/src/main/res/drawable/wheel_val.xml"
+        "merged": "D:\\Testgithub\\地区选择器\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "D:\\Testgithub\\地区选择器\\src\\main\\res\\drawable\\wheel_val.xml"
     }
 ]

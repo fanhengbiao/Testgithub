@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/cascade_Master/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/home/fanhengbiao/linphone/Testgithub/地区选择器/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/fanhengbiao/linphone/Testgithub/地区选择器/src/main/res/menu/main.xml"
+        "merged": "D:\\Testgithub\\地区选择器\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Testgithub\\地区选择器\\src\\main\\res\\menu\\main.xml"
     }
 ]
