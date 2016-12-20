@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ButterKnife注解使用/ButterKnife注解使用.iml" filepath="$PROJECT_DIR$/ButterKnife注解使用/ButterKnife注解使用.iml" />
       <module fileurl="file://$PROJECT_DIR$/Glide_图片加载/Glide_图片加载.iml" filepath="$PROJECT_DIR$/Glide_图片加载/Glide_图片加载.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVP_Demos/MVP_Demos.iml" filepath="$PROJECT_DIR$/MVP_Demos/MVP_Demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/RetrofitTorxjava/RetrofitTorxjava.iml" filepath="$PROJECT_DIR$/RetrofitTorxjava/RetrofitTorxjava.iml" />

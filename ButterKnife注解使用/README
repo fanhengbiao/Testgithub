@@ -1,0 +1,2 @@
+简单的butterknife注解使用，只要在build.gradle上加上compile 'com.jakewharton:butterknife:6.1.0'，就可以
+使用，但是as为了方便，安装一个butternife插件就可以快速生成

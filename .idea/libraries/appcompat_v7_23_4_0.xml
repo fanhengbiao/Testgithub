@@ -1,19 +1,21 @@
 <component name="libraryTable">
   <library name="appcompat-v7-23.4.0">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/tSlideAndDrag_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/RetrofitTorxjava/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/获取验证码/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/SwipeMenuListView_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Glide_图片加载/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/MVP_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
-      <root url="jar://$PROJECT_DIR$/获取系统所有铃声并选择播放/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/RetrofitTorxjava/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/SwipeMenuListView_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/fastjson_JSON解析/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/tSlideAndDrag_Demos/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/原生https请求/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/拍照裁剪功能/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/获取系统所有铃声并选择播放/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/获取验证码/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/Glide_图片加载/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/Glide_图片加载/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
