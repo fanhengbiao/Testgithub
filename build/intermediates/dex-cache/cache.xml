@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="D:\Testgithub\ButterKnife注解使用\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="470acef640d3f60ba68f1d2e4abf871c0eb9fb80">
-        <dex dex="D:\Testgithub\ButterKnife注解使用\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dc5699cba5b02e4bb9aee6489abdfc402c45f247\classes.dex" />
+        sha1="60677111f0a23dd31c7c4f07f0a15a718d0ad99a">
+        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d8ef85c4d23c5794fabd906d534f6f25679ac337\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Testgithub\ButterKnife注解使用\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="eeab022dd50df972e6dacbb403247a03dd950562">
-        <dex dex="D:\Testgithub\ButterKnife注解使用\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_95e486c1c73be7c0984879ae30f26988eaaa6d90\classes.dex" />
+        sha1="7324d4fe4950215143139e0ec4fc7e2d95762185">
+        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_86d5ca63c4d9f52f3dd0ecbccc09686c0d433fec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\exploded-aar\com.linsea\universalvideoview\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fdbc7356cbd67746b114447b249e959b61024e30">
+        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\com.linsea-universalvideoview-1.1.0_a526c8aab8a5ed34b539b69af6f63ba849f98090\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_69d2d3c27627661806f0bd051a18a12cc184adc9\classes.dex" />
     </item>
 
 </items>
