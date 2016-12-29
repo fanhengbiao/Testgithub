@@ -3,39 +3,291 @@
 
     <item
         is-multidex="true"
-        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="60677111f0a23dd31c7c4f07f0a15a718d0ad99a">
-        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d8ef85c4d23c5794fabd906d534f6f25679ac337\classes.dex" />
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f1055676d01d0c61395d3f612f7b1be9e82ed4d2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Testgithub\MVP_Demos\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="7324d4fe4950215143139e0ec4fc7e2d95762185">
-        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_86d5ca63c4d9f52f3dd0ecbccc09686c0d433fec\classes.dex" />
+        sha1="35f37c79e340dc4f7bed4b62a1a8d14127af92af">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_59a450fd663d45b9c817b27ab28cf64cc76cf7fb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Testgithub\视频播放_universalVideoView\build\intermediates\exploded-aar\com.linsea\universalvideoview\1.1.0\jars\classes.jar"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="fdbc7356cbd67746b114447b249e959b61024e30">
-        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\com.linsea-universalvideoview-1.1.0_a526c8aab8a5ed34b539b69af6f63ba849f98090\classes.dex" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_f6b6dd47ae9268c0a7899ebce78802fe36cb0b61\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-Wechat-2.7.10.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="D:\Testgithub\视频播放_universalVideoView\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_69d2d3c27627661806f0bd051a18a12cc184adc9\classes.dex" />
+        sha1="b9e12f2d8a6f01dce27c65ce3b93bccd46e7ffd4">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.7.10_b4b2c58caa0e77d3bc436362347e9aae978c7442\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-Wechat-Moments-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8357a3810c2e5bbb6274042a1508bac87759c5f">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.7.10_4f900ca890e4a969753ded13e549e8a50f83b4a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_1a975742b0b7c70c70f7bb26393858ca112ebab7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\MVP_Demos\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="870259abec1396d415a1da4ddbc08d31ee2480e9">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_20e38437bff3f1dc884c3dc22d7bd5f14bb7f9ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e442e16eee195a93d00810ec73ca70420d44da1e">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1dc66faead9adc9df9383d8bd186e53204d1f396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_bd547f35378f11ef911285a32981d3892757f358\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_41eb58c5a909a635b3eb04ee61f11f9d62fc1933\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_384aece73a99dab579e1692fff172999e634fb97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\MVP_Demos\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_3ed868a0d9cc09f8f14bf82dfd356676dc647ce9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_e136a3a73f972aac8ade4cea37a6d05dfb96b3e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_6b15e5ff188ba45eab8643ee345bccbf41b95a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\MobTools-2016.1107.1809.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51ab3d9199c3df198ba8fedb2916027f283676d6">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\MobTools-2016.1107.1809_fa2bfb6e368bd4c7a96d7d1f55396a012d36bee4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-QZone-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="158eb0f8525584008bfc92c2c6a4841174133a0a">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QZone-2.7.10_f6517e1c74d81f81296c6b2b0c013cf1c2120f71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_eecde0beab6142ff60d49c7be523fb6c52e17498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\MVP_Demos\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_006423c0d30089660283fbcde312662142c4d0fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-Core-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7e5f9da3635eb8d89b8a9a22cd68cd64cca9104">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.7.10_39817616e95422e00db41c0bbaddc0653ca7bc20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-Wechat-Core-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a720ef31ac89904b603fb2a27c01bb21a951fcad">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.7.10_2d91e07f87d0b8d404fe990c0f83078a9948a67e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_053d431190d44f31891d4ae327a19e243234cc8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_1243e55bcc9f9a9234441d92c2dd3a6227ed301e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_7b7842ce009ebd53ac79c3a8444e4190b00fd5ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="520cc4c77ac7d070f188b176bebb19968f608f73">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9daa7ae0d381d34c4818cad700e06705fd073ee9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\MobCommons-2016.1107.1809.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="978446ee83b82106e7d859832e4e3440101bda5a">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\MobCommons-2016.1107.1809_ee1743d98bdd8b28f1364e35b4e5fd1dcc99b505\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_b57d4da126d663fab9c3ca361c27b0c661df00d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_f35408b063e1d6859ade1b5a774a38a0465c1954\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\MVP_Demos\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_b13538d168ebb47da6c457435ec30bebc7c5a51a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Testgithub\MVP_Demos\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ca2c93569e2a9cd468b587be50976fb3f91ab86d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-QQ-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5d3ffc9c4c2743fcc83b3333f77fc252fb146889">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.7.10_06074c228ceff39069a4d88a5cd65481a6dbed09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Testgithub\各种分享功能\libs\ShareSDK-SinaWeibo-2.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="52574245a489f42699687ba9038c8c803a8e8bcf">
+        <dex dex="D:\Testgithub\各种分享功能\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.7.10_719e0c0706813627ce6c03e58d9b2e42d00414ef\classes.dex" />
     </item>
 
 </items>

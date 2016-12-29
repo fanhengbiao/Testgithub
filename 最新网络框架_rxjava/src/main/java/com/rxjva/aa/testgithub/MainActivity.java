@@ -23,6 +23,7 @@ import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.xmlpull.v1.XmlPullParser;
 
+import java.io.File;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -37,6 +38,8 @@ import com.rxjva.aa.testgithub.Util;
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
+
+import static android.R.attr.path;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -101,25 +104,51 @@ public class MainActivity extends AppCompatActivity {
 //            e.printStackTrace();
 //        }
 
-        RxAndroidNetworking.post("http://testapi.xmcrtech.com/register?format=json&PhoneNumberCode=691665&RegisterType=1&AutoLogin=true&Password=12345678&PhoneNumber=15880268607")
-//        RxAndroidNetworking.post("https://api.mch.weixin.qq.com/pay/unifiedorder")
-//                .addHeaders(map)//加入头部,可以用string或者hasmap
-//                .addBodyParameter(map)
-//                .addPathParameter()//对url的补充
-//                .addQueryParameter(parmMap)//添加需要传入的参数,可以字符串或者hasmap
-//                .addQueryParameter(map)
-                .setTag("get")//做标记,可以取消任务
-
+//        RxAndroidNetworking.post("http://testapi.xmcrtech.com/register?format=json&PhoneNumberCode=691665&RegisterType=1&AutoLogin=true&Password=12345678&PhoneNumber=15880268607")
+////        RxAndroidNetworking.post("https://api.mch.weixin.qq.com/pay/unifiedorder")
+////                .addHeaders(map)//加入头部,可以用string或者hasmap
+////                .addBodyParameter(map)
+////                .addPathParameter()//对url的补充
+////                .addQueryParameter(parmMap)//添加需要传入的参数,可以字符串或者hasmap
+////                .addQueryParameter(map)
+//                .setTag("get")//做标记,可以取消任务
+//
+//                .build()
+//                .setAnalyticsListener(new AnalyticsListener() {//这个方法可以知道用时,是否来自缓存等信息
+//                    @Override
+//                    public void onReceived(long timeTakenInMillis, long bytesSent, long bytesReceived, boolean isFromCache) {
+//                        Log.e("onReceived", "" + timeTakenInMillis);
+//                        Log.e("onReceived", "" + bytesSent);
+//                        Log.e("onReceived", "" + bytesReceived);
+//                        Log.e("onReceived", "" + isFromCache);
+//                    }
+//                })
+//                .getParseObservable(new TypeToken<String>() {//实体类最好用GsonFormat制作
+//                })
+//                .subscribeOn(Schedulers.io())
+//                .observeOn(AndroidSchedulers.mainThread())
+//                .subscribe(new Observer<String>() {
+//                    @Override
+//                    public void onCompleted() {
+//
+//                    }
+//
+//                    @Override
+//                    public void onError(Throwable e) {
+//                        Log.e("get_onError", "" + e.getMessage());
+//                        textView.setText("get_onError" + e.getMessage());
+//                    }
+//
+//                    @Override
+//                    public void onNext(String s) {
+//                        Log.e("get_onNext", "" + s.toString());
+//                        textView.setText("get_text" + s.toString());
+//                    }
+//                });
+        RxAndroidNetworking.upload("http://jy.leejia.cn/index.php?s=/Live/Api/uploadImg/key/jnooo/vcode/9441020bd47843e473c78bb4861639cf/")
+                .addMultipartFile("file", new File("http://4493bz.1985t.com/uploads/allimg/150127/4-15012G52133.jpg"))
+                .setPriority(Priority.IMMEDIATE)
                 .build()
-                .setAnalyticsListener(new AnalyticsListener() {//这个方法可以知道用时,是否来自缓存等信息
-                    @Override
-                    public void onReceived(long timeTakenInMillis, long bytesSent, long bytesReceived, boolean isFromCache) {
-                        Log.e("onReceived", "" + timeTakenInMillis);
-                        Log.e("onReceived", "" + bytesSent);
-                        Log.e("onReceived", "" + bytesReceived);
-                        Log.e("onReceived", "" + isFromCache);
-                    }
-                })
                 .getParseObservable(new TypeToken<String>() {//实体类最好用GsonFormat制作
                 })
                 .subscribeOn(Schedulers.io())
@@ -132,14 +161,14 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onError(Throwable e) {
-                        Log.e("get_onError", "" + e.getMessage());
                         textView.setText("get_onError" + e.getMessage());
+                        Log.e("get_onError", "" + e.getMessage());
                     }
 
                     @Override
                     public void onNext(String s) {
-                        Log.e("get_onNext", "" + s.toString());
                         textView.setText("get_text" + s.toString());
+                        Log.e("get_onNext", "" + s.toString());
                     }
                 });
 
