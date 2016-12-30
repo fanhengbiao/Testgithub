@@ -21,5 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 .bitmapTransform(new GlideRoundTransform(this,15))
                 .diskCacheStrategy(DiskCacheStrategy.ALL)// 缓存所有版本的图像（默认行为）
                 .into(imageView);
+        //模糊效果
+//        Glide.with(StopPushActivity.this)
+//                .load("")
+//                .crossFade(1000)
+//                .bitmapTransform(new BlurTransformation(this,23,4)) // “23”：设置模糊度(在0.0到25.0之间)，默认”25";"4":图片缩放比例,默认“1”。
+//                .into(imageGround);
     }
 }
