@@ -1,2 +1,2 @@
-include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':Glide_图片加载', ':最新网络框架_rxjava', ':原生https请求', ':拍照裁剪功能', ':fastjson_JSON解析', ':获取验证码', ':获取系统所有铃声并选择播放', ':各种分享功能', ':支付宝付款', ':微信支付', ':ButterKnife注解使用', ':Tab用fragment', '自定义相机', ':popuview从底部弹出动画'
+include ':app', ':RetrofitTorxjava', ':MVP_Demos', ':SwipeMenuListView_Demos', ':tSlideAndDrag_Demos', ':Glide_图片加载', ':最新网络框架_rxjava', ':原生https请求', ':拍照裁剪功能', ':fastjson_JSON解析', ':获取验证码', ':获取系统所有铃声并选择播放', ':各种分享功能', ':支付宝付款', ':微信支付', ':ButterKnife注解使用', ':Tab用fragment', '自定义相机', ':popuview从底部弹出动画', ':视频播放器'
 include ':地区选择器'
