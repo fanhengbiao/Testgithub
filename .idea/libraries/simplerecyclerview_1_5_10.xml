@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="simplerecyclerview-1.5.10">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/recycler上下拉刷新/build/intermediates/exploded-aar/com.xdandroid/simplerecyclerview/1.5.10/res" />
+      <root url="jar://$PROJECT_DIR$/recycler上下拉刷新/build/intermediates/exploded-aar/com.xdandroid/simplerecyclerview/1.5.10/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xdandroid/simplerecyclerview/1.5.10/2494670881ca97af26d530690daa477fdf884d2b/simplerecyclerview-1.5.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -18,10 +18,13 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fastjson_JSON解析" />
             <option value="$PROJECT_DIR$/popuview从底部弹出动画" />
+            <option value="$PROJECT_DIR$/recycler上下拉刷新" />
+            <option value="$PROJECT_DIR$/simplerecyclerview" />
             <option value="$PROJECT_DIR$/tSlideAndDrag_Demos" />
             <option value="$PROJECT_DIR$/原生https请求" />
             <option value="$PROJECT_DIR$/各种分享功能" />
             <option value="$PROJECT_DIR$/地区选择器" />
+            <option value="$PROJECT_DIR$/录制语音" />
             <option value="$PROJECT_DIR$/微信支付" />
             <option value="$PROJECT_DIR$/拍照裁剪功能" />
             <option value="$PROJECT_DIR$/支付宝付款" />
